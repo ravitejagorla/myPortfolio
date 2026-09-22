@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Ravi Teja Gorla - Portfolio</title>
+
     <link rel="stylesheet" href="./static/style.css">
 </head>
+
 <body>
-    <!-- <iframe class="header-iframe" src="./header.html"></iframe> -->
-     <header>
+
+    <header>
         <span>rt.gorla</span>
+
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Experience</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+            <button
+                type="button"
+                onclick="document.body.classList.toggle('dark-mode')">
+                🌓
+            </button>
         </nav>
     </header>
+
     <main>
+
         <section id="hero">
-            <h1>Hi, I'm Ravi Teja</h1>
+            <p>Hello, I'm</p>
+
+            <h1>Ravi Teja Gorla</h1>
+
             <h2>Jr. Software Developer</h2>
-            <p>Python • Django • Django REST Framework • Angular</p>
+
+            <p>
+                Python • Django • Django REST Framework • Angular
+            </p>
         </section>
-        <section id="about"></section>
-        <section id="skills"></section>
-        <section id="experience"></section>
-        <section id="projects"></section>
-        <section id="education"></section>
-        <section id="contact"></section>
+
+        <section id="about">
+        </section>
+
+        <section id="skills">
+        </section>
+
+        <section id="experience">
+        </section>
+
+        <section id="projects">
+        </section>
+
+        <section id="education">
+        </section>
+
+        <section id="contact">
+        </section>
+
     </main>
+
     <footer>
         <p>&copy; 2026 Ravi Teja Gorla</p>
     </footer>
+
     <script src="./static/script.js"></script>
+
 </body>
+
 </html>
